@@ -1,7 +1,7 @@
 TASK1: COLLAPSED BACKBONE: BASIC LAYER3 CONFIGURATION.
 !@@@CORE SWITCH SA TAAS
 config t
-   hostname 42
+   hostname COREtaas-42
    enable secret pass
    service password-encryption
    no logging console
@@ -643,6 +643,7 @@ exit
           
 sip-ua
 sip-server ipv4:192.168.k.1
+
 
 
 
